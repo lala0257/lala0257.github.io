@@ -13,7 +13,8 @@ body {font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans G
 .icon-logo::before {  content: "\e93e";  }
 .icon-icon::before {  content: "\e920";  }
 .icon-uniE907:before {  content: "\e907";  }
-
+.icon-uniE906:before {  content: "\e906";  }
+.icon-uniE905:before {  content: "\e905";  }
 
 
 
@@ -36,6 +37,14 @@ body {font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans G
 #test > .container > .row > div {  margin-top: 20px;  margin-bottom: 20px;  }
 #test > .container > .row > div a{color:#888;}
 #test > .container > .row > div a:hover{text-decoration: none;color:red;}
+
+
+#ljyy {  border-bottom: 1px solid #c0c0c0;  padding: 20px 0;  }
+#ljyy > .container > p { /*line-height: 50px;*/  font-size: 14px;  margin-bottom: 0;  }
+#ljyy > .container > .pull-left > span, #ljyy > .container > .pull-left > a {  color: #e92322;  }
+#ljyy > .container > .pull-left > a {  border-bottom: 1px dashed #e92322;  }
+#ljyy > .container > .pull-left > a:hover {  text-decoration: none;  }
+
 
 
 /*section{height: 200px;background-color: #00a200;}*/
