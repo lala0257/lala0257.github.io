@@ -12,6 +12,7 @@ body {font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans G
 .icon-telephone::before {  content: "\e909";  font-size: 15px;  }
 .icon-logo::before {  content: "\e93e";  }
 .icon-icon::before {  content: "\e920";  }
+.icon-uniE907:before {  content: "\e907";  }
 
 
 
@@ -30,6 +31,11 @@ body {font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans G
 #header .icon-icon {font-size: 50px;color: #E92322;line-height: 50px;vertical-align: middle;  }
 #header .icon-logo {font-size: 32px;  color: #333;  line-height: 50px;  vertical-align: middle;  }
 
+#test{padding:50px 0px;border-bottom: 1px solid #c0c0c0; }
+#test i {  font-size: 34px;  }
+#test > .container > .row > div {  margin-top: 20px;  margin-bottom: 20px;  }
+#test > .container > .row > div a{color:#888;}
+#test > .container > .row > div a:hover{text-decoration: none;color:red;}
 
 
 /*section{height: 200px;background-color: #00a200;}*/
