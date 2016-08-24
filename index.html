@@ -110,10 +110,10 @@
             </a>
         </div>
     </section>
-    <section id="test">
+    <section id="test" class="hidden-xs">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-sm-6 col-md-4">
                     <a href="#">
                         <div class="media">
                             <div class="media-left">
@@ -203,21 +203,27 @@
     <section id="products">
         <div class="container">
             <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active"><a href="#tab_01" aria-controls="tab_01" role="tab" data-toggle="tab">特别推荐</a></li>
-                <li role="presentation"><a href="#tab_02" aria-controls="tab_02" role="tab" data-toggle="tab">微投资</a></li>
-                <li role="presentation"><a href="#tab_03" aria-controls="tab_03" role="tab" data-toggle="tab">微小宝</a></li>
-                <li role="presentation"><a href="#tab_04" aria-controls="tab_04" role="tab" data-toggle="tab">微消费</a></li>
-                <li role="presentation"><a href="#tab_05" aria-controls="tab_05" role="tab" data-toggle="tab">微金宝</a></li>
-                <li role="presentation"><a href="#tab_06" aria-controls="tab_06" role="tab" data-toggle="tab">微转让</a></li>
-            </ul>
+            <div class="ul-wapper">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#tab_01" aria-controls="tab_01" role="tab" data-toggle="tab">特别推荐</a></li>
+                    <li role="presentation"><a href="#tab_02" aria-controls="tab_02" role="tab" data-toggle="tab">微投资</a></li>
+                    <li role="presentation"><a href="#tab_03" aria-controls="tab_03" role="tab" data-toggle="tab">微小宝</a></li>
+                    <li role="presentation"><a href="#tab_04" aria-controls="tab_04" role="tab" data-toggle="tab">微消费</a></li>
+                    <li role="presentation"><a href="#tab_05" aria-controls="tab_05" role="tab" data-toggle="tab">微金宝</a></li>
+                    <li role="presentation"><a href="#tab_06" aria-controls="tab_06" role="tab" data-toggle="tab">微转让</a></li>
+                    <li class="pull-right hidden-sm hidden-xs"><a href="#">更多</a></li>
+                </ul>
+            </div>
             <!-- Tab panes -->
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade in active" id="tab_01">
                     <div class="rows">
-                        <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                             <div class="panel panel-chenyu active">
-                                <div class="panel-heading">Panel heading without title</div>
+                                <div class="panel-heading">
+                                    <p class="percent"><strong>8</strong><sub>%</sub></p>
+                                    <p><span>年利率</span></p>
+                                </div>
                                 <div class="panel-body">
                                     <div class="rows">
                                         <h4>chenyu理财20160823期</h4>
@@ -241,9 +247,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                             <div class="panel panel-chenyu disabled">
-                                <div class="panel-heading">Panel heading without title</div>
+                                <div class="panel-heading">
+                                    <p class="tooltips">
+                                        <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="北京欢迎你" href="#">京</a>
+                                        <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="上海欢迎你" href="#">沪</a>
+                                    </p>
+                                    <p class="percent"><strong>8</strong><sub>%</sub></p>
+                                    <p><span>年利率</span></p>
+                                </div>
                                 <div class="panel-body">
                                     <div class="rows">
                                         <h4>chenyu理财20160823期</h4>

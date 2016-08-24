@@ -46,14 +46,15 @@ body {font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans G
 #ljyy > .container > .pull-left > a:hover {  text-decoration: none;  }
 
 #products{background-color: #f0f0f0;padding:40px 0;}
-#products > .container > .nav-tabs {  padding-left: 20px;  }
-#products > .container > .nav-tabs > li {}
-#products > .container > .nav-tabs > li > a {  font-size: 16px;  color: #333;  }
-#products > .container > .nav-tabs > li > a:hover {  border-color: transparent;  background-color: transparent;  color: #000;  }
-#products > .container > .nav-tabs > li.active {}
-#products > .container > .nav-tabs > li.active > a {  background-color: transparent;  border: 0;  border-bottom: 4px solid #e92322;  }
-#products > .container > .tab-content {  padding: 20px 0;  }
-#products > .container > .tab-content p{margin-bottom: 0px;}
+#products > .container .ul-wapper{overflow-x: scroll;}
+#products > .container .ul-wapper > .nav-tabs {  padding-left: 20px;  }
+#products > .container .ul-wapper > .nav-tabs > li {}
+#products > .container .ul-wapper > .nav-tabs > li > a {  font-size: 16px;  color: #333;  }
+#products > .container .ul-wapper > .nav-tabs > li > a:hover {  border-color: transparent;  background-color: transparent;  color: #000;  }
+#products > .container .ul-wapper > .nav-tabs > li.active {}
+#products > .container .ul-wapper > .nav-tabs > li.active > a {  background-color: transparent;  border: 0;  border-bottom: 4px solid #e92322;  }
+#products > .container  > .tab-content {  padding: 20px 0;  }
+#products > .container  > .tab-content p{margin-bottom: 0px;}
 
 .panel-chenyu { border:0;border-radius: 0;box-shadow: 1px 1px 5px #ccc;  }
 .panel-chenyu > .panel-heading {  float: right;width:120px;padding:0;height: 150px;border-left:1px dashed #c0c0c0;text-align: center;position: relative;}
@@ -71,6 +72,26 @@ body {font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans G
 }
 .panel-chenyu > .panel-heading::before{  top:-8px;  left:-8px;  }
 .panel-chenyu > .panel-heading::after{bottom: -8px;left:-8px;box-shadow: 0 2px 1px #ccc inset;}
+
+.panel-chenyu > .panel-heading > p > strong {  font-size: 30px;  }
+.panel-chenyu > .panel-heading > p.percent{margin-top:48px;}
+.panel-chenyu > .panel-heading > .tooltips {  position: absolute;  width: 100%;  text-align: center;  top: 26px;  }
+.panel-chenyu > .panel-heading .badge {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 3px;
+    margin: 2px;
+}
+
+.panel-chenyu > .panel-heading .badge-one {  color: #e92322;  border-color: #e92322;  }
+
+.panel-chenyu > .panel-heading .badge-two {  color: #399;  border-color: #399;  }
+
 
 .panel-chenyu.active{background-color: #e92322;color:#fff;}
 .panel-chenyu.active::before{
