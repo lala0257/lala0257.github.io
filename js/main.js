@@ -31,6 +31,7 @@ $(function(){
 
     //判断当前ul的宽是否超出屏幕
     if(width>$(window).width()){
+        $('.ul-wapper').css('overflow-x','scroll');
         ulWapperContent.css("width",width+20);
     }
 
